@@ -2,23 +2,21 @@
 
 @font-face {
     font-family: "Barlow";
-    src: url(../public/asstes/fonts/Barlow-SemiBold.ttf);
+    src: url(../public/assets/fonts/Barlow-SemiBold.ttf);
     font-weight: 600;
 }
 
 @font-face {
     font-family: "Fraunces-bold";
-    src: url(../public/asstes/fonts/Fraunces_72pt-Bold.ttf);
+    src: url(../public/assets/fonts/Fraunces_72pt-Bold.ttf);
     font-weight: 700;
 }
 
 @font-face {
     font-family: "Fraunces-black";
-    src: url(../public/asstes/fonts/Fraunces_72pt-Black.ttf);
+    src: url(../public/assets/fonts/Fraunces_72pt-Black.ttf);
     font-weight: 900;
 }
-
-
 
 
 @theme {
@@ -32,8 +30,11 @@
     --color-grey600: hsl(232, 10%, 55%);
     --color-grey950: hsl(210, 4%, 67%);
     --color-white1: hsl(0, 100%, 100%);
+
+    --font-sans: "Barlow";
 }
 
 body {
     font-size: 18px;
+    font-family: "Barlow";
 }
