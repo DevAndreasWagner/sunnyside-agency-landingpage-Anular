@@ -1,3 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
-
 @import 'tailwindcss';
+
+@font-face {
+    font-family: "Barlow";
+    src: url(../public/asstes/fonts/Barlow-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Fraunces-bold";
+    src: url(../public/asstes/fonts/Fraunces_72pt-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Fraunces-black";
+    src: url(../public/asstes/fonts/Fraunces_72pt-Black.ttf);
+    font-weight: 900;
+}
+
+
+
+
+@theme {
+    --color-red400: hsl(7, 99%, 70%);
+    --color-yellow500: hsl(51, 100%, 49%);
+    --color-green500: hsl(167, 34%, 41%);
+    --color-green800: hsl(167, 40%, 24%);
+    --color-blue800: hsl(198, 62%, 26%);
+    --color-grey400: hsl(212, 27%, 19%);
+    --color-grey550: hsl(213, 9%, 39%);
+    --color-grey600: hsl(232, 10%, 55%);
+    --color-grey950: hsl(210, 4%, 67%);
+    --color-white1: hsl(0, 100%, 100%);
+}
+
+body {
+    font-size: 18px;
+}
